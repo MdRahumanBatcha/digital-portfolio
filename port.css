@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(189, 231, 255);
+}
+body,h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    background-color: #333;
+    color:#fff;
+    padding: 2rem 0;
+    position: relative;
+}
+.header-content h1{
+    font-size: 2.5rem;
+}
+.profile-picture{
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 3cm;
+    margin-top: 2cm;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.head2{
+    text-align: center;
+}
+nav ul{
+    list-style: lower-alpha;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+    font-weight: 200;
+}
+nav a{
+    text-decoration: none;
+    color:#ffffff;
+}
+section{
+    padding:20px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
